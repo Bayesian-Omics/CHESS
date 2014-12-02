@@ -1,0 +1,15 @@
+setwd("~/Documents/0_Imperial_Extraits/3_Applied_Projects/Resultats_Aida/Habib_Test_3_Rats/Input/")
+Y_data <- as.matrix(read.delim("test_ONE_BIG_tissue_Y.txt",header=F,sep=" "))
+dim(Y_data)
+Y_data[1:5,1:5]
+Y_data[30:32,1:5]
+Y_data[30:32,1476]
+Y_data[3,1476]
+Y_data[4,1476]
+Y_data[5,1476]
+setwd("~/Dropbox/Imperial_Partial/Code/HESS_pp_Qt/HESS_pp_Qt_36/Example/")
+setwd("~/Dropbox/Imperial_Partial/Code/HESS_pp_Qt/HESS_pp_Qt_36/Example/Input/")
+Y_data <- as.matrix(read.delim("Y_multi.txt",header=F,sep=" "))
+dim(Y_data)
+New_Y_data = Y_data[,1:6]
+dim(New_Y_data)
